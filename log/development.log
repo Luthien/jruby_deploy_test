@@ -1,0 +1,912 @@
+/!\ FAILSAFE /!\  Sun Aug 02 00:04:00 +0400 2009
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:65:in `mysql_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/1.8/monitor.rb:191:in `mon_synchronize'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:48:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:159:in `process_client'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:158:in `each'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:158:in `process_client'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:285:in `run'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:285:in `initialize'
+/!\ FAILSAFE /!\  Sun Aug 02 00:05:58 +0400 2009
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:65:in `mysql_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/1.8/monitor.rb:191:in `mon_synchronize'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:48:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:159:in `process_client'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:158:in `each'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:158:in `process_client'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:285:in `run'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:285:in `initialize'
+/!\ FAILSAFE /!\  Sun Aug 02 00:06:09 +0400 2009
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:65:in `mysql_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/1.8/monitor.rb:191:in `mon_synchronize'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:48:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:159:in `process_client'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:158:in `each'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:158:in `process_client'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:285:in `run'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:285:in `initialize'
+/!\ FAILSAFE /!\  Sun Aug 02 00:06:31 +0400 2009
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:65:in `mysql_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/1.8/monitor.rb:191:in `mon_synchronize'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:48:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:159:in `process_client'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:158:in `each'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:158:in `process_client'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:285:in `run'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:285:in `initialize'
+/!\ FAILSAFE /!\  Sun Aug 02 00:06:32 +0400 2009
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:65:in `mysql_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/1.8/monitor.rb:191:in `mon_synchronize'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:48:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:159:in `process_client'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:158:in `each'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:158:in `process_client'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:285:in `run'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:285:in `initialize'
+/!\ FAILSAFE /!\  Sun Aug 02 00:06:33 +0400 2009
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:65:in `mysql_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/1.8/monitor.rb:191:in `mon_synchronize'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:48:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:159:in `process_client'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:158:in `each'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:158:in `process_client'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:285:in `run'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:285:in `initialize'
+/!\ FAILSAFE /!\  Sun Aug 02 00:07:00 +0400 2009
+  Status: 500 Internal Server Error
+  no such file to load -- mysql
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:156:in `require'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/mysql_adapter.rb:65:in `mysql_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/1.8/monitor.rb:191:in `mon_synchronize'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:48:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:159:in `process_client'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:158:in `each'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:158:in `process_client'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:285:in `run'
+    /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/mongrel-1.1.5-java/lib/mongrel.rb:285:in `initialize'
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#index (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:15:10) [GET]
+  [4;35;1mClient Load (0.0ms)[0m   [0mActiveRecord::ActiveRecordError: Table 'jruby_deploy_test_development.clients' doesn't exist: SELECT * FROM `clients` [0m
+
+ActiveRecord::StatementInvalid (ActiveRecord::ActiveRecordError: Table 'jruby_deploy_test_development.clients' doesn't exist: SELECT * FROM `clients` ):
+  /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:563:in `execute'
+  /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:623:in `select'
+  /home/houdini/opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:548:in `jdbc_select_all'
+  app/controllers/clients_controller.rb:5:in `index'
+
+Rendered rescues/_trace (282.0ms)
+Rendered rescues/_request_and_response (18.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (143.0ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (187.0ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateClients (20090801195215)
+  [4;36;1mSQL (58.0ms)[0m   [0;1mCREATE TABLE `clients` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `surname` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB CHARACTER SET `utf8`[0m
+  [4;35;1mSQL (48.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090801195215')[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#index (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:15:28) [GET]
+  [4;35;1mClient Load (17.0ms)[0m   [0mSELECT * FROM `clients` [0m
+Rendering template within layouts/clients
+Rendering clients/index
+Completed in 120ms (View: 77, DB: 18) | 200 OK [http://localhost/clients]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#new (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:15:30) [GET]
+Rendering template within layouts/clients
+Rendering clients/new
+Completed in 57ms (View: 23, DB: 1) | 200 OK [http://localhost/clients/new]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#index (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:15:36) [GET]
+Rendering config/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #5 of app/views/config/index.html.erb:
+2: 
+3: <% form_tag '/config/1', :method => :put do -%>
+4:     <h3>Имя пользователя</h3>
+5:     <%= text_field_tag 'sms[user]', @data['user'] %><div class="helper">Для входа на websms.ru</div>
+6:     <h3>Пароль</h3>
+7:     <%= text_field_tag 'sms[pass]', @data['pass'] %><div class="helper">Для входа на websms.ru</div>
+8:     <h3>Телефон(ы)</h3>
+
+    app/views/config/index.html.erb:5
+    app/views/config/index.html.erb:3
+
+Rendered rescues/_trace (179.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#index (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:16:40) [GET]
+
+NoMethodError (undefined method `get_config' for Config:Module):
+  
+
+Rendered rescues/_trace (115.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#index (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:18:23) [GET]
+
+NoMethodError (undefined method `get_config' for Config:Module):
+  
+
+Rendered rescues/_trace (208.0ms)
+Rendered rescues/_request_and_response (11.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#index (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:23:53) [GET]
+Rendering config/index
+Completed in 148ms (View: 128, DB: 1) | 200 OK [http://localhost/config]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#1 (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:23:56) [PUT]
+  Parameters: {"authenticity_token"=>"RCEx45wPUg9ozfitCctxxhdn25gqEI1ihKkjTZWbGGg=", "sms"=>{"user"=>"houdini", "pass"=>"123456", "tels"=>"89264489998", "fromPhone"=>"E-Bank", "mess"=>"Крупная операция"}, "commit"=>"Сохранить"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: index and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#1 (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:24:27) [PUT]
+  Parameters: {"authenticity_token"=>"RCEx45wPUg9ozfitCctxxhdn25gqEI1ihKkjTZWbGGg=", "sms"=>{"user"=>"houdini", "pass"=>"123456", "tels"=>"89264489998", "fromPhone"=>"E-Bank", "mess"=>"Крупная операция"}, "commit"=>"Сохранить"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: index and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#index (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:24:30) [GET]
+Rendering config/index
+Completed in 36ms (View: 22, DB: 0) | 200 OK [http://localhost/config]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#index (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:24:39) [GET]
+Rendering config/index
+Completed in 22ms (View: 7, DB: 0) | 200 OK [http://localhost/config]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#1 (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:24:44) [PUT]
+  Parameters: {"authenticity_token"=>"RCEx45wPUg9ozfitCctxxhdn25gqEI1ihKkjTZWbGGg=", "sms"=>{"user"=>"houdini", "pass"=>"1234567", "tels"=>"89264489998", "fromPhone"=>"E-Bank", "mess"=>"Крупная операция"}, "commit"=>"Сохранить"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: index and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#index (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:24:54) [GET]
+Rendering config/index
+Completed in 21ms (View: 8, DB: 1) | 200 OK [http://localhost/config]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#1 (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:25:53) [PUT]
+  Parameters: {"authenticity_token"=>"RCEx45wPUg9ozfitCctxxhdn25gqEI1ihKkjTZWbGGg=", "sms"=>{"user"=>"houdini", "pass"=>"1234567", "tels"=>"89264489998", "fromPhone"=>"E-Bank", "mess"=>"Крупная операция"}, "commit"=>"Сохранить"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: index and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#index (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:26:20) [GET]
+Rendering template within layouts/application
+Rendering config/index
+Completed in 85ms (View: 70, DB: 15) | 200 OK [http://localhost/config]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#1 (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:26:22) [PUT]
+  Parameters: {"authenticity_token"=>"RCEx45wPUg9ozfitCctxxhdn25gqEI1ihKkjTZWbGGg=", "sms"=>{"user"=>"houdini", "pass"=>"1234567", "tels"=>"89264489998", "fromPhone"=>"E-Bank", "mess"=>"Крупная операция"}, "commit"=>"Сохранить"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: index and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#index (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:27:36) [GET]
+Rendering template within layouts/application
+Rendering config/index
+Completed in 42ms (View: 25, DB: 0) | 200 OK [http://localhost/config]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#1 (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:27:39) [PUT]
+  Parameters: {"authenticity_token"=>"RCEx45wPUg9ozfitCctxxhdn25gqEI1ihKkjTZWbGGg=", "sms"=>{"user"=>"houdini", "pass"=>"1234567", "tels"=>"89264489998", "fromPhone"=>"E-Bank", "mess"=>"Крупная операция"}, "commit"=>"Сохранить"}
+
+ActionController::UnknownAction (No action responded to 1. Actions: index and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:28:17) [PUT]
+  Parameters: {"authenticity_token"=>"RCEx45wPUg9ozfitCctxxhdn25gqEI1ihKkjTZWbGGg=", "sms"=>{"user"=>"houdini", "pass"=>"1234567", "tels"=>"89264489998", "fromPhone"=>"E-Bank", "mess"=>"Крупная операция"}, "commit"=>"Сохранить"}
+
+ActionController::RoutingError (No route matches "/config/1" with {:method=>:put}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#update (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:28:37) [PUT]
+  Parameters: {"authenticity_token"=>"RCEx45wPUg9ozfitCctxxhdn25gqEI1ihKkjTZWbGGg=", "sms"=>{"user"=>"houdini", "pass"=>"1234567", "tels"=>"89264489998", "fromPhone"=>"E-Bank", "mess"=>"Крупная операция"}, "commit"=>"Сохранить", "id"=>"1"}
+Redirected to http://localhost:3003/config
+Completed in 31ms (DB: 0) | 302 Found [http://localhost/config/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#index (for 0:0:0:0:0:0:0:1 at 2009-08-02 00:28:37) [GET]
+Rendering template within layouts/application
+Rendering config/index
+Completed in 30ms (View: 16, DB: 0) | 200 OK [http://localhost/config]
+/!\ FAILSAFE /!\  Mon Aug 03 12:04:32 +0300 2009
+  Status: 500 Internal Server Error
+  The driver encountered an error: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'jruby_deploy_test_development'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:330:in `initialize'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:457:in `initialize'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:53:in `jdbc_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/jdbc_adapter/jdbc_mysql.rb:18:in `mysql_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /opt/jruby-1.3.1/lib/ruby/1.8/monitor.rb:191:in `mon_synchronize'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:48:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/!\ FAILSAFE /!\  Mon Aug 03 12:04:42 +0300 2009
+  Status: 500 Internal Server Error
+  The driver encountered an error: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'jruby_deploy_test_development'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:330:in `initialize'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:457:in `initialize'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:53:in `jdbc_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/jdbc_adapter/jdbc_mysql.rb:18:in `mysql_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /opt/jruby-1.3.1/lib/ruby/1.8/monitor.rb:191:in `mon_synchronize'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:48:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/!\ FAILSAFE /!\  Mon Aug 03 12:35:30 +0300 2009
+  Status: 500 Internal Server Error
+  The driver encountered an error: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'jruby_deploy_test_development'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:330:in `initialize'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:457:in `initialize'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:53:in `jdbc_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/jdbc_adapter/jdbc_mysql.rb:18:in `mysql_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /opt/jruby-1.3.1/lib/ruby/1.8/monitor.rb:191:in `mon_synchronize'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:48:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/!\ FAILSAFE /!\  Mon Aug 03 12:35:40 +0300 2009
+  Status: 500 Internal Server Error
+  The driver encountered an error: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'jruby_deploy_test_development'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:330:in `initialize'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:457:in `initialize'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/active_record/connection_adapters/jdbc_adapter.rb:53:in `jdbc_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-jdbc-adapter-0.9.1/lib/jdbc_adapter/jdbc_mysql.rb:18:in `mysql_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /opt/jruby-1.3.1/lib/ruby/1.8/monitor.rb:191:in `mon_synchronize'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:48:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+    /opt/jruby-1.3.1/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/webrick.rb:46:in `service'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (307.0ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (121.0ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (7.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateClients (20090801195215)
+  [4;36;1mSQL (11.0ms)[0m   [0;1mCREATE TABLE `clients` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `surname` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB CHARACTER SET `utf8`[0m
+  [4;35;1mSQL (214.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090801195215')[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-03 21:45:29) [GET]
+
+ActionController::RoutingError (No route matches "/rails/info/properties" with {:method=>:get}):
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-08-03 21:53:20) [GET]
+  [4;36;1mClient Load (30.0ms)[0m   [0;1mSELECT * FROM `clients` [0m
+Rendering template within layouts/application
+Rendering clients/index
+Completed in 197ms (View: 142, DB: 31) | 200 OK [http://localhost/clients]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#index (for 127.0.0.1 at 2009-08-03 21:56:06) [GET]
+Rendering template within layouts/application
+Rendering config/index
+Completed in 117ms (View: 94, DB: 0) | 200 OK [http://localhost/config]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-03 22:14:24) [GET]
+
+ActionController::RoutingError (No route matches "/rails/info/properties" with {:method=>:get}):
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-03 22:50:55) [GET]
+
+ActionController::RoutingError (No route matches "/rails/info/properties" with {:method=>:get}):
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-04 20:25:53) [GET]
+
+ActionController::RoutingError (No route matches "/rails/info/properties" with {:method=>:get}):
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-08-04 20:26:02) [GET]
+  [4;36;1mClient Load (82.0ms)[0m   [0;1mSELECT * FROM `clients` [0m
+Rendering template within layouts/application
+Rendering clients/index
+Completed in 447ms (View: 337, DB: 83) | 200 OK [http://localhost/clients]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#new (for 127.0.0.1 at 2009-08-04 20:29:59) [GET]
+Rendering template within layouts/application
+Rendering clients/new
+Completed in 109ms (View: 40, DB: 1) | 200 OK [http://localhost/clients/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#create (for 127.0.0.1 at 2009-08-04 20:30:10) [POST]
+  Parameters: {"authenticity_token"=>"RgFhyvqq1bsjXaQHNAWDf5BRO46NXXj2BHZNiHZ00xs=", "client"=>{"name"=>"mary", "surname"=>"k"}, "commit"=>"Create"}
+  [4;35;1mSQL (52.0ms)[0m   [0mINSERT INTO `clients` (`name`, `surname`, `created_at`, `updated_at`) VALUES('mary', 'k', '2009-08-04 17:30:10', '2009-08-04 17:30:10')[0m
+Redirected to http://localhost:3000/clients/1
+Completed in 161ms (DB: 52) | 302 Found [http://localhost/clients]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-08-04 20:30:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClient Load (38.0ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering clients/show
+Completed in 85ms (View: 22, DB: 39) | 200 OK [http://localhost/clients/1]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-08-04 20:30:14) [GET]
+  [4;35;1mClient Load (2.0ms)[0m   [0mSELECT * FROM `clients` [0m
+Rendering template within layouts/application
+Rendering clients/index
+Completed in 140ms (View: 73, DB: 3) | 200 OK [http://localhost/clients]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-08-04 20:30:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClient Load (1.0ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering clients/show
+Completed in 86ms (View: 32, DB: 2) | 200 OK [http://localhost/clients/1]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#edit (for 127.0.0.1 at 2009-08-04 20:30:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClient Load (1.0ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering clients/edit
+Completed in 67ms (View: 43, DB: 2) | 200 OK [http://localhost/clients/1/edit]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#update (for 127.0.0.1 at 2009-08-04 20:30:22) [PUT]
+  Parameters: {"authenticity_token"=>"RgFhyvqq1bsjXaQHNAWDf5BRO46NXXj2BHZNiHZ00xs=", "client"=>{"name"=>"mary", "surname"=>"k"}, "commit"=>"Update", "id"=>"1"}
+  [4;35;1mClient Load (1.0ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 1) [0m
+Redirected to http://localhost:3000/clients/1
+Completed in 84ms (DB: 2) | 302 Found [http://localhost/clients/1]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-08-04 20:30:22) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClient Load (0.0ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering clients/show
+Completed in 75ms (View: 24, DB: 1) | 200 OK [http://localhost/clients/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-08-04 20:30:40) [GET]
+  [4;35;1mClient Load (0.0ms)[0m   [0mSELECT * FROM `clients` [0m
+Rendering template within layouts/application
+Rendering clients/index
+Completed in 44ms (View: 24, DB: 0) | 200 OK [http://localhost/clients]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#new (for 127.0.0.1 at 2009-08-04 20:30:41) [GET]
+Rendering template within layouts/application
+Rendering clients/new
+Completed in 109ms (View: 43, DB: 1) | 200 OK [http://localhost/clients/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#create (for 127.0.0.1 at 2009-08-04 20:30:49) [POST]
+  Parameters: {"authenticity_token"=>"RgFhyvqq1bsjXaQHNAWDf5BRO46NXXj2BHZNiHZ00xs=", "client"=>{"name"=>"dima", "surname"=>"g"}, "commit"=>"Create"}
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO `clients` (`name`, `surname`, `created_at`, `updated_at`) VALUES('dima', 'g', '2009-08-04 17:30:49', '2009-08-04 17:30:49')[0m
+Redirected to http://localhost:3000/clients/2
+Completed in 80ms (DB: 0) | 302 Found [http://localhost/clients]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-08-04 20:30:49) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Load (1.0ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering clients/show
+Completed in 41ms (View: 16, DB: 1) | 200 OK [http://localhost/clients/2]
+  [4;35;1mSQL (2.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-08-04 20:30:51) [GET]
+  [4;36;1mClient Load (2.0ms)[0m   [0;1mSELECT * FROM `clients` [0m
+Rendering template within layouts/application
+Rendering clients/index
+Completed in 94ms (View: 44, DB: 4) | 200 OK [http://localhost/clients]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-04 20:31:04) [GET]
+
+ActionController::RoutingError (No route matches "/admin" with {:method=>:get}):
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /opt/jruby-1.3.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#index (for 127.0.0.1 at 2009-08-04 20:31:12) [GET]
+Rendering template within layouts/application
+Rendering config/index
+Completed in 86ms (View: 64, DB: 1) | 200 OK [http://localhost/config]
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ConfigController#index (for 127.0.0.1 at 2009-08-04 20:34:47) [GET]
+Rendering template within layouts/application
+Rendering config/index
+Completed in 212ms (View: 192, DB: 2) | 200 OK [http://localhost/config]

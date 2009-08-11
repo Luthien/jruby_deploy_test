@@ -1,0 +1,17 @@
+<h1>Настройка смс уведомлений</h1>
+
+<% form_tag '/config/1', :method => :put do -%>
+    <h3>Имя пользователя</h3>
+    <%= text_field_tag 'sms[user]', @data['user'] %><div class="helper">Для входа на websms.ru</div>
+    <h3>Пароль</h3>
+    <%= text_field_tag 'sms[pass]', @data['pass'] %><div class="helper">Для входа на websms.ru</div>
+    <h3>Телефон(ы)</h3>
+    <%= text_field_tag 'sms[tels]', @data['tels'] %><div class="helper">Можно задавать несколько через запятую</div>
+    <h3>Отправитель</h3>
+    <%= text_field_tag 'sms[fromPhone]', @data['fromPhone'] %>
+    <h3>Сообщение</h3>
+    <%= text_field_tag 'sms[mess]', @data['mess'] %><div class="helper">Это сообщение будет добавлено к основному</div>
+    <br /><br />
+    <%= submit_tag 'Сохранить' %>
+<% end -%>
+<br />
